@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %} SIH Hackathon {% endblock %}
+
+{% block body %}
+{% load static %}
+
+<body>
+    <main>
+        <div class="container">
+            <div class="img-container">
+                <img src="images/banner.png">
+                </div>
+                <img src="images/logo.png" class="logo">
+                <input type="text" class="input">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffc0cb;"></i>
+            </div>
+            <div class="container1">
+                <div class="box1">
+                <button class="btn">Places</button>
+                <button class="btn">Transportation</button>
+                </div>
+                <div class="box2">
+                <button class="btn">Food & Drinks</button>
+                <button class="btn">Hotels</button>
+                </div>
+                <button class="btn position">Support</button>
+            </div>
+    </main>
+    
+</body>
+
+
+{% endblock body %}
