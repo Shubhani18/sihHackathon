@@ -28,7 +28,7 @@
     font-size:1.3rem;
     position:relative;
     bottom:90px;
-    left:180px;
+    left:270px;
     padding:10px;
 
 }
@@ -43,7 +43,7 @@
     font-size:2rem;
     position:relative;
     bottom:85px;
-    left:110px;
+    left:190px;
 
 }
 .box1{
@@ -52,6 +52,7 @@
     position:relative;
     top:100px;
     left:600px;
+    gap:20px;
 }
 .box2{
     display:flex;
@@ -59,6 +60,7 @@
     position:relative;
     top:150px;
     left:600px;
+    gap:20px;
 }
 .btn{
     width:155px;
